@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }
+header { background: #364fc7; color: #fff; padding: 16px 24px; }
+header a { color: #fff; text-decoration: none; margin-right: 16px; font-weight: bold; }
+nav { margin-top: 8px; }
+main { padding: 24px; max-width: 900px; margin: 0 auto; }
+.card { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.price { color: #2b8a3e; font-weight: bold; }
+.out { color: #c92a2a; font-weight: bold; }
+a.btn { display: inline-block; margin-top: 8px; background: #364fc7; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+.error { background: #ffe3e3; border: 1px solid #ff8787; padding: 20px; border-radius: 8px; }
+footer { text-align: center; padding: 16px; color: #888; font-size: 13px; }

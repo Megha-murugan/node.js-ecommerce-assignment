@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-express-hbs",
+  "version": "1.0.0",
+  "description": "Implementation B - Express.js + Handlebars (HBS) for E-Commerce Product Management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "hbs": "^4.2.0"
+  }
+}

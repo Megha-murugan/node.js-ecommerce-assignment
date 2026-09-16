@@ -1,0 +1,15 @@
+{{> header}}
+
+<h1>Welcome to ShopEasy</h1>
+<p>A simple e-commerce catalog built using Express.js and Handlebars templates.</p>
+
+<h3>Browse by category:</h3>
+<ul>
+  {{#each categories}}
+    <li><a href="/category/{{this}}">{{this}}</a></li>
+  {{/each}}
+</ul>
+
+<p><a class="btn" href="/products">View All Products</a></p>
+
+{{> footer}}

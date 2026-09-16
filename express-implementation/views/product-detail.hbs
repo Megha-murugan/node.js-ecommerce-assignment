@@ -1,0 +1,22 @@
+{{> header}}
+
+<h1>{{product.name}}</h1>
+<div class="card">
+  <p><strong>Category:</strong> {{product.category}}</p>
+  <p><strong>Price:</strong> <span class="price">{{currency product.price}}</span></p>
+  <p><strong>Description:</strong> {{product.description}}</p>
+
+  {{#if product.stock}}
+    <p><strong>Availability:</strong> {{product.stock}} units in stock</p>
+  {{else}}
+    <p class="out"><strong>Availability:</strong> Out of stock</p>
+  {{/if}}
+
+  {{#if (eq product.category "Electronics")}}
+    <p><em>Comes with 1-year manufacturer warranty.</em></p>
+  {{/if}}
+
+  <a class="btn" href="/products">&larr; Back to products</a>
+</div>
+
+{{> footer}}

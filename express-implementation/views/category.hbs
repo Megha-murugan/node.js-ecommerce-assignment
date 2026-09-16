@@ -1,0 +1,18 @@
+{{> header}}
+
+<h1>Category: {{categoryName}}</h1>
+
+{{#each products}}
+  <div class="card">
+    <h3>{{this.name}}</h3>
+    <p class="price">{{currency this.price}}</p>
+    {{#if this.stock}}
+      <p>In stock ({{this.stock}})</p>
+    {{else}}
+      <p class="out">Out of stock</p>
+    {{/if}}
+    <a class="btn" href="/products/{{this.id}}">View Details</a>
+  </div>
+{{/each}}
+
+{{> footer}}
