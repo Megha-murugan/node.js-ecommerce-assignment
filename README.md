@@ -2,7 +2,8 @@
 # Node.js Assignment — E-Commerce Product Management
 ### Case Study 2, developed as two separate implementations
 
-``` Case Study 2: E-Commerce Product Management
+``` 
+Case Study 2: E-Commerce Product Management
 
 Develop an application for an e-commerce company to manage and display products.
 
