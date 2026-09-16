@@ -1,6 +1,20 @@
 # Node.js Assignment — E-Commerce Product Management
 ### Case Study 2, developed as two separate implementations
 
+``` Case Study 2: E-Commerce Product Management
+
+Develop an application for an e-commerce company to manage and display products.
+
+Implement suitable routes such as:
+
+- "/" – Home
+- "/products" – Display all products
+- "/products/:id" – Display details of a selected product
+- "/category/:name" – Display products belonging to a category
+
+Use dynamic routing and the Handlebars "{{#each}}" helper to display multiple products in the Express implementation.
+```
+
 ```
 ecommerce-assignment/
 ├── http-implementation/       Implementation A — core "http" module
