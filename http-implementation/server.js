@@ -17,7 +17,7 @@ const {
 
 const PORT = 3000;
 
-// ---------- Small HTML helpers (manual "templating") ----------
+//  Small HTML helpers (manual "templating")
 
 function pageWrapper(title, bodyHtml) {
   return `<!DOCTYPE html>
@@ -73,7 +73,7 @@ function notFoundPage(message) {
   );
 }
 
-// ---------- Route handlers ----------
+//  Route handlers 
 
 function handleHome(req, res) {
   const categories = getAllCategories();
@@ -139,7 +139,7 @@ function handleCategory(req, res, name) {
   res.end(pageWrapper(`Category: ${name}`, body));
 }
 
-// ---------- Manual router ----------
+//  Manual router 
 
 const server = http.createServer((req, res) => {
   const parsedUrl = url.parse(req.url, true);
