@@ -21,7 +21,7 @@ const {
 const app = express();
 const PORT = 3001;
 
-// ---------- View engine setup ----------
+//  View engine setup 
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "views"));
 hbs.registerPartials(path.join(__dirname, "views", "partials"));
@@ -29,14 +29,14 @@ hbs.registerPartials(path.join(__dirname, "views", "partials"));
 // Static assets (CSS)
 app.use(express.static(path.join(__dirname, "public")));
 
-// ---------- Handlebars helpers ----------
+//  Handlebars helpers 
 // Conditional helper: compare two values, e.g. {{#if (eq category "Books")}}
 hbs.registerHelper("eq", (a, b) => a === b);
 
 // Helper to format price with currency symbol
 hbs.registerHelper("currency", (value) => `₹${value}`);
 
-// ---------- Routes ----------
+//  Routes 
 
 // Static route: Home
 app.get("/", (req, res) => {
