@@ -1,3 +1,4 @@
+```⚠️ ```bash is inside "```" "```" ``` ``` 
 # Node.js Assignment — E-Commerce Product Management
 ### Case Study 2, developed as two separate implementations
 
